@@ -4,7 +4,7 @@ import WeatherDisplayComponent from './WeatherDisplayComponent';
 import FavoriteComponent from './FavoriteComponent';
 import axios from 'axios';
 
-const API_KEY = '3c63058e41da01cb204eb531365fe2b9';
+const API_KEY = import.meta.env.VITE_API_KEY;
 
 const WeatherDashboard = () => {
   const [weatherData, setWeatherData] = useState(null);

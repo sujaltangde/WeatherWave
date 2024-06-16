@@ -1,6 +1,5 @@
 import WeatherDashboard from "./components/WeatherDashboard"
 
-
 function App() {
  
 
