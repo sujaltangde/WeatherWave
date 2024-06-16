@@ -1,8 +1,33 @@
-# React + Vite
+# WeatherWave
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+WeatherWave is a weather dashboard application built using React.js and integrates with the OpenWeatherMap API. It allows users to view current weather and a 5-day forecast for a given city, manage favorite cities, and switch between Celsius and Fahrenheit units.
 
-Currently, two official plugins are available:
+## Getting Started
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+To get a local copy of the project up and running, follow these steps.
+
+### Prerequisites
+
+Make sure you have Node.js and npm (Node Package Manager) installed on your development environment.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/sujaltangde/WeatherWave.git
+```
+
+### Navigate to root directory and install dependencies 
+```bash
+cd WeatherWave
+npm install
+```
+
+### Start the JSON Server: 
+```bash
+npx json-server --watch db.json --port 3001
+```
+
+### Start the development server in new terminal: 
+```bash
+npm run dev
+```
